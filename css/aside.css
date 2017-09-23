@@ -1,0 +1,15 @@
+aside {
+    float: left;
+    width: 250px;
+}
+aside > blockquote:first-letter {
+    color: #7e7e7e;
+    font: 40px/40px 'Oswald', sans-serif;
+}
+aside > blockquote {
+    margin: 0;
+    padding: 10px 20px;
+    font: 1.2em/1.6em 'Oswald', sans-serif;
+    font-weight: 300;
+
+}
