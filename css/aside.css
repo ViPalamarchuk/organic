@@ -1,15 +1,23 @@
 aside {
-    float: left;
-    width: 250px;
+    float: left ;
+    width: 350px;
+    background: url("../image/as_bg.jpg");
+    margin-top: 550px;
 }
 aside > blockquote:first-letter {
-    color: #7e7e7e;
-    font: 40px/40px 'Oswald', sans-serif;
+    color: #ff70b6;
+    font: 40px/40px 'CaviarDreams', sans-serif;
 }
 aside > blockquote {
-    margin: 0;
-    padding: 10px 20px;
-    font: 1.2em/1.6em 'CaviarDreams',Caviar Dreams;
-    font-weight: 300;
-
+    margin-left: 50px;
+    font-family: 'CaviarDreams',sans-serif;
+}
+.quote1{
+    margin-left: 20px;
+}
+.quote2{
+    margin-left: 220px;
+}
+.arrows{
+    margin-left: 350px;
 }

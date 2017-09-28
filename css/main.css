@@ -9,12 +9,17 @@
     font-weight: normal;
 }
 body {
-    background: url("../image/bg.jpg") fixed;
+    background: url("../image/bg.jpg") no-repeat ;
     size: auto;
     font-family: 'CaviarDreams', sans-serif;
 }
 header {
+    background: url("../image/bg.jpg")  ;
+    size: auto;
     padding: 20px 0;
+}
+.logo1 {
+    margin-left: 20px;
 }
 nav ul {
     margin: 0;
@@ -46,17 +51,13 @@ h2 {
     text-shadow: 0 1px 0 rgb(34, 55, 60);
     line-height: 1.2em;
 }
-p {
-    margin-top:4%;
-    font-size: 1em;
-    color: #fff;
-    text-shadow: 0 1px 0 rgb(152, 153, 153);
-    line-height: 1.8em;
-}
 section {
-    margin-left: 280px;
-    padding-bottom: 50px;
+    margin-right: 100px;
+    float: right;
+    background: url("../image/as_bg.jpg");
+    margin-top: 550px;
 }
+/**
 footer {
     list-style-position: inside;
     display: inline-block;
@@ -73,3 +74,4 @@ footer {
 .f_nav li a:hover{
     color: rgb(241, 241, 241);
 }
+**/
