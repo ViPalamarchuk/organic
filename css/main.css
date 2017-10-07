@@ -5,18 +5,13 @@
 @font-face {
     font-family: 'CaviarDreams';
     src: url(../CaviarDreams.ttf);
-    font-style: italic;
     font-weight: normal;
+    color: #ffffff;
 }
 body {
-    background: url("../image/bg.jpg") no-repeat ;
-    size: auto;
     font-family: 'CaviarDreams', sans-serif;
-}
-header {
-    background: url("../image/bg.jpg")  ;
-    size: auto;
-    padding: 20px 0;
+    background: url("../image/bg.jpg") no-repeat ;
+    width: 100%;
 }
 .logo1 {
     margin-left: 20px;
@@ -24,6 +19,7 @@ header {
 nav ul {
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
 
 nav li {
@@ -40,6 +36,7 @@ nav li {
 #heading {
     margin: 30px 0;
     padding-left: 20px;
+    color: white;
 }
 
 h2 {
@@ -50,28 +47,19 @@ h2 {
     color: #ffffff;
     text-shadow: 0 1px 0 rgb(34, 55, 60);
     line-height: 1.2em;
+    font-style: oblique;
 }
 section {
     margin-right: 100px;
     float: right;
     background: url("../image/as_bg.jpg");
-    margin-top: 550px;
+    margin-top: 40%;
 }
-/**
-footer {
-    list-style-position: inside;
-    display: inline-block;
-    background: url(../image/ftr_bg.png);
-}
-.f_nav{
-    margin-top: 8%;
-}
-.f_nav li a{
+a{
+    text-decoration: none;
     color: #ffffff;
-    font-size:0.8725em;
-    line-height: 1.8em;
 }
-.f_nav li a:hover{
-    color: rgb(241, 241, 241);
-}
-**/
+ a:hover {
+     text-decoration: underline;
+     color: #ff85b6;
+ }

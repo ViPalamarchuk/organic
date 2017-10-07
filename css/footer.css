@@ -1,0 +1,21 @@
+.footer_menu li {
+    display: inline-table;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+footer{
+    background: url("ftr_bg.png");
+    background-size: auto;
+}
+.footer_menu_item li {
+    display: table;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: small;
+}
+ul {
+    justify-content: flex-start;
+}
+footer{
+    margin-top: 70%;
+}
