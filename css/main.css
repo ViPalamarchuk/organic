@@ -19,7 +19,7 @@ body {
 nav ul {
     margin: 0;
     padding: 0;
-    color: white;
+    color: #ffffff;
 }
 
 nav li {
@@ -55,3 +55,11 @@ section {
     background: url("../image/as_bg.jpg");
     margin-top: 40%;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ a:hover {
+     text-decoration: underline;
+     color: #ff85b6;
+ }
