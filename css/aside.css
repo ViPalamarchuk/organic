@@ -1,8 +1,8 @@
 aside {
     float: left ;
-    width: 350px;
+    width: 30%;
     background: url("../image/as_bg.jpg");
-    margin-top: 550px;
+    margin-top: 40%;
 }
 aside > blockquote:first-letter {
     color: #ff70b6;
