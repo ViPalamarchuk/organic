@@ -1,7 +1,4 @@
-#wrapper {
-    max-width: 960px ;
-    margin: auto ;
-}
+
 @font-face {
     font-family: 'CaviarDreams';
     src: url(../CaviarDreams.ttf);
@@ -11,7 +8,6 @@
 body {
     font-family: 'CaviarDreams', sans-serif;
     background: url("../image/bg.jpg") no-repeat ;
-    width: 100%;
 }
 .logo1 {
     margin-left: 20px;
@@ -62,4 +58,7 @@ a{
  a:hover {
      text-decoration: underline;
      color: #ff85b6;
+ }
+ header, aside, section {
+     height: 100%;
  }
