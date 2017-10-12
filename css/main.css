@@ -3,61 +3,9 @@
     font-family: 'CaviarDreams';
     src: url(../CaviarDreams.ttf);
     font-weight: normal;
-    color: #ffffff;
 }
 body {
     font-family: 'CaviarDreams', sans-serif;
-    background: url("../image/bg.jpg") no-repeat;
-}
-.logo1 {
-    margin-left: 20px;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-}
-header{
-    min-height: 980px;
-    min-width: 980px;
-    max-width: 600px;
-    max-height: 600px;
-}
-
-nav li {
-    list-style-position: inside;
-    font-size: 14px;
-    padding: 10px;
-}
-
-.top-menu li {
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 0;
-}
-#heading {
-    margin: 30px 0;
-    padding-left: 20px;
-    color: white;
-}
-
-h2 {
-    display: inline-block;
-    margin: 0;
-    padding: 0 10px;
-    font-size: 3.5em;
-    color: #ffffff;
-    text-shadow: 0 1px 0 rgb(34, 55, 60);
-    line-height: 1.2em;
-    font-style: oblique;
-}
-section {
-    overflow: hidden;
-    min-width: 60%;
-    max-width: 60%;
-    float: right;
-    background: url("../image/as_bg.jpg");
-    margin-top:0%;
 }
 a{
     text-decoration: none;
@@ -67,6 +15,6 @@ a{
      text-decoration: underline;
      color: #ff85b6;
  }
- header, aside, section {
+ header, aside {
      height: 100%;
  }

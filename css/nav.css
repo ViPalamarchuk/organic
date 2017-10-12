@@ -1,0 +1,15 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+nav li {
+    list-style-position: inside;
+    font-size: 14px;
+    padding: 10px;
+}
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
