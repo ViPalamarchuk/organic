@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../CaviarDreams.ttf);
+    font-weight: normal;
+}
+body {
+    font-family: 'CaviarDreams', sans-serif;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ a:hover {
+     text-decoration: underline;
+     color: #ff85b6;
+ }
+ header, aside {
+     height: 100%;
+ }

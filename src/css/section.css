@@ -1,0 +1,12 @@
+section {
+    overflow: hidden;
+    min-width: 60%;
+    max-width: 60%;
+    float: right;
+    background: url("../image/as_bg.jpg");
+    background-size: cover;
+    margin-top:0;
+}
+section > p {
+    color: #000000;
+}
